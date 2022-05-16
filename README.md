@@ -12,10 +12,10 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
 | [Week 0](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-0-18-mei) |  |  | Projecten kiezen  | Contact opnemen met opdrachtgever  |   |
-| [Week 1](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-1-23---25-mei) | Kickoff, briefing opdrachtgever, standup & checkup met coach| [Debriefing](Debriefing.md) | Workshops & Reviews | <del>Hemelvaart</del> |  <del>Hemelvaart</del> |
-| [Week 2](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-2-30-mei---3-juni) | <del>Pinksteren</del> | Standup & checkup met coach   | Workshops & Reviews | Workshops & Reviews |  Iteratie 2 presenteren aan opdrachtgever + Meesterproef Q&A |
-| [Week 3](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-3-6-juni---10-juni) | Standup & checkup met coach   |   | Workshops & Reviews | Workshops & Reviews |  Iteratie 3 presenteren aan opdrachtgever |
-| [Week 4](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-4-13---16-juni) | Standup & checkup met coach |   | Workshops & Reviews | Workshops & Reviews |  Iteratie 4 presenteren aan opdrachtgever |
+| [Week 1](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-1-23---25-mei) | Kickoff, briefing opdrachtgever, standup & checkup met coach| [Debriefing](Debriefing.md) | Reviews | <del>Hemelvaart</del> |  <del>Hemelvaart</del> |
+| [Week 2](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-2-30-mei---3-juni) | <del>Pinksteren</del> | Standup & checkup met coach   | Workshops & Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever + Meesterproef Q&A |
+| [Week 3](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-3-6-juni---10-juni) | Standup & checkup met coach   |   | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
+| [Week 4](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-4-13---16-juni) | Standup & checkup met coach |   | Workshops & Reviews | Reviews |  Iteratie 4 presenteren aan opdrachtgever |
 | [Week 5](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-5-20---24-juni) | Standup & checkup met coach |   |  | Final prototype  | EXPO |
 
 
@@ -32,8 +32,8 @@ Elke week zijn er coachingsmomenten gepland.
 Coaches voor de Meesterproef zijn: Justus Sturkenboom, Sanne 't Hooft, Joost Faber, Vasilis van Gemert en Koop Reynders.
 
 1. Maandag - standup & checkup met je coach.
-2. Woensdag - workshops of design/code reviews.
-3. Donderdag - workshops of design/code reviews.
+2. Woensdag - design/code reviews.
+3. Donderdag - design/code reviews.
 4. Vrijdag - testen met de opdrachtgever.
 
 
@@ -53,7 +53,7 @@ Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opd
 
 1. Maandag is kickoff met de opdrachtgever en heb je een standup en checkup met je coach.
 2. Dinsdag stuur je een debriefing.
-3. Woensdag is er ruimte voor workshops en code/design reviews. Om 16.00 uur is de Weekly Mingle.
+3. Woensdag is er ruimte voor code/design reviews. Om 16.00 uur is de Weekly Mingle.
 4. Donderdag is Hemelvaart.
 4. Vrijdag is het Hemelvaart.
 
@@ -63,8 +63,8 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 
 1. Maandag is het 2e pinksterdag.
 2. Dinsdag heb je een standup en checkup met je coach
-3. Woensdag is er ruimte voor workshops en code/design reviews. Om 16.00 uur is de Weekly Mingle.
-4. Donderdag is er ruimte voor workshops en code/design reviews.
+3. Woensdag is er ruimte code/design reviews. Om 16.00 uur is de Weekly Mingle.
+4. Donderdag is er ruimte voor code/design reviews.
 5. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever en is er een Q&A over de verwachtingen, criteria, leerdoelen en beoordeling.
 
 
@@ -72,8 +72,8 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 2e iteratie van het protoype zien.
 
 1. Maandag is het Pinksteren
-2. Woensdag is er ruimte voor workshops en code/design reviews. Om 16.00 uur is de Weekly Mingle.
-3. Donderdag is er ruimte voor workshops en code/design reviews.
+2. Woensdag is er ruimte voor code/design reviews. Om 16.00 uur is de Weekly Mingle.
+3. Donderdag is er ruimte voor code/design reviews.
 4. Vrijdag presenteer je je 2e iteratie van het prototype aan de opdrachtgever.
 
 
@@ -82,8 +82,8 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 3e iteratie van het protoype zien.
 
 1. Maandag heb je een standup en checkup met je coach.
-2. Woensdag is er ruimte voor workshops en code/design reviews. Om 16.00 uur is de Weekly Mingle.
-3. Donderdag is er ruimte voor workshops en code/design reviews.
+2. Woensdag is er ruimte voor code/design reviews. Om 16.00 uur is de Weekly Mingle.
+3. Donderdag is er ruimte voor code/design reviews.
 4. Vrijdag presenteer je je 3e iteratie van het prototype aan de opdrachtgever.
 
 
