@@ -13,8 +13,8 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 |---|---|---|---|---|---|
 | [Week 0](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-0-18-mei) |  |  | Projecten kiezen  | Contact opnemen met opdrachtgever  |   |
 | [Week 1](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-1-23---25-mei) | Kickoff, briefing opdrachtgever, standup & checkup met coach| [Debriefing](Debriefing.md) | Reviews | <del>Hemelvaart</del> |  <del>Hemelvaart</del> |
-| [Week 2](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-2-30-mei---3-juni) | <del>Pinksteren</del> | Standup & checkup met coach   |Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever + Meesterproef Q&A |
-| [Week 3](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-3-6-juni---10-juni) | Standup & checkup met coach   |   | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
+| [Week 2](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-2-30-mei---3-juni) | Standup & checkup met coach | Standup & checkup met coach   |Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever + Meesterproef Q&A |
+| [Week 3](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-3-6-juni---10-juni) | <del>Pinksteren</del>  |   | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
 | [Week 4](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-4-13---16-juni) | Standup & checkup met coach |   |  Reviews | Reviews |  Iteratie 4 presenteren aan opdrachtgever |
 | [Week 5](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-5-20---24-juni) | Standup & checkup met coach |   |  | Final prototype  | EXPO |
 
@@ -39,7 +39,7 @@ Coaches voor de Meesterproef zijn: Justus Sturkenboom, Sanne 't Hooft, Joost Fab
 
 ## Programma
 
-### Meesterproef - Week 0 (18 mei)
+### Meesterproef - Week 0 (16 - 20 mei)
 Deze week worden de projecten gepresenteerd en geef je twee voorkeuren aan voor een eindopdracht en wordt je ingedeeld in een groepje van maximaal drie studenten. 
 
 👇
@@ -61,7 +61,7 @@ Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opd
 ### Meesterproef - Week 2 (30 mei - 3 juni)
 De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 1e iteratie van het protoype zien.
 
-1. Maandag is het 2e pinksterdag.
+1. Maandag heb je een standup en checkup met je coach.
 2. Dinsdag heb je een standup en checkup met je coach
 3. Woensdag is er ruimte code/design reviews. Om 16.00 uur is de Weekly Mingle.
 4. Donderdag is er ruimte voor code/design reviews.
@@ -71,7 +71,7 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 ### Meesterproef - Week 3 (6 juni - 10 juni)
 De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 2e iteratie van het protoype zien.
 
-1. Maandag is het Pinksteren
+1. Maandag is het 2e pinksterdag.
 2. Woensdag is er ruimte voor code/design reviews. Om 16.00 uur is de Weekly Mingle.
 3. Donderdag is er ruimte voor code/design reviews.
 4. Vrijdag presenteer je je 2e iteratie van het prototype aan de opdrachtgever.
