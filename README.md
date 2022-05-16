@@ -12,7 +12,7 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
 | [Week 0](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-0-18-mei) |  |  | Projecten kiezen  | Contact opnemen met opdrachtgever  |   |
-| [Week 1](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-1-23---25-mei) | Kickoff opdrachtgever, standup & checkup met coach| [Debriefing](Debriefing.md) | Workshops & Reviews | <del>Hemelvaart</del> |  <del>Hemelvaart</del> |
+| [Week 1](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-1-23---25-mei) | Kickoff, briefing opdrachtgever, standup & checkup met coach| [Debriefing](Debriefing.md) | Workshops & Reviews | <del>Hemelvaart</del> |  <del>Hemelvaart</del> |
 | [Week 2](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-2-30-mei---3-juni) | <del>Pinksteren</del> | Standup & checkup met coach   | Workshops & Reviews | Workshops & Reviews |  Iteratie 2 presenteren aan opdrachtgever + Meesterproef Q&A |
 | [Week 3](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-3-6-juni---10-juni) | Standup & checkup met coach   |   | Workshops & Reviews | Workshops & Reviews |  Iteratie 3 presenteren aan opdrachtgever |
 | [Week 4](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-4-13---16-juni) | Standup & checkup met coach |   | Workshops & Reviews | Workshops & Reviews |  Iteratie 4 presenteren aan opdrachtgever |
