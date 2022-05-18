@@ -11,7 +11,7 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
-| [Week 0](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-0-18-mei) |  |  | Projecten kiezen  | Contact opnemen met opdrachtgever  |   |
+| [Week 0](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-0-18-mei) |  |  | Projecten kiezen  |   |  Contact opnemen met opdrachtgever |
 | [Week 1](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-1-23---25-mei) | Kickoff, briefing opdrachtgever, standup & checkup met coach| [Debriefing](Debriefing.md) | Reviews | <del>Hemelvaart</del> |  <del>Hemelvaart</del> |
 | [Week 2](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-2-30-mei---3-juni) | Standup & checkup met coach |    |Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever + Meesterproef Q&A |
 | [Week 3](https://github.com/cmda-minor-web/meesterproef-2122/blob/master/README.md#meesterproef---week-3-6-juni---10-juni) | <del>Pinksteren</del>  | Standup & checkup met coach  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
@@ -43,7 +43,7 @@ Coaches voor de Meesterproef zijn: Justus Sturkenboom, Sanne 't Hooft, Joost Fab
 Deze week worden de projecten gepresenteerd en geef je twee voorkeuren aan voor een eindopdracht en wordt je ingedeeld in een groepje van maximaal drie studenten. 
 
 👇
-> Zodra je weet aan welke opdracht je gaat werken, neem je contact op met de opdrachtgever om een afspraak te maken over de kickoff van maandag  17 mei, doe dit gezamenlijk als groepje!!   
+> Zodra je weet aan welke opdracht je gaat werken, neem je contact op met de opdrachtgever om een afspraak te maken over de kickoff van maandagmiddag 23 mei, doe dit gezamenlijk als groepje!!   
  
 ☝️
 
