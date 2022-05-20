@@ -59,7 +59,7 @@ Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opd
 
 
 ### Meesterproef - Week 2 (30 mei - 3 juni)
-De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 1e iteratie van het protoype zien.
+De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 1e iteratie van het protoype zien.
 
 1. Maandag heb je een standup en checkup met je coach.
 2. Dinsdag heb je een standup en checkup met je coach
