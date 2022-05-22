@@ -32,8 +32,8 @@ Elke week zijn er coachingsmomenten gepland.
 Coaches voor de Meesterproef zijn: Justus Sturkenboom, Sanne 't Hooft, Joost Faber, Vasilis van Gemert en Koop Reynders.
 
 1. Maandag - standup & checkup met je coach.
-2. Woensdag - design/code reviews.
-3. Donderdag - design/code reviews.
+2. Woensdag - code reviews.
+3. Donderdag - design reviews.
 4. Vrijdag - testen met de opdrachtgever.
 
 
