@@ -40,7 +40,7 @@ Coaches voor de Meesterproef zijn: Justus Sturkenboom, Sanne 't Hooft, Joost Fab
 ## Programma
 
 ### Meesterproef - Week 0 (16 - 20 mei)
-Deze week worden de projecten gepresenteerd en geef je twee voorkeuren aan voor een eindopdracht en wordt je ingedeeld in een groepje van maximaal drie studenten. 
+Deze week worden de projecten gepresenteerd en geef je twee voorkeuren aan voor een eindopdracht en wordt je ingedeeld in een groepje van maximaal drie studenten. Check de projecten hier https://github.com/cmda-minor-web-cases
 
 👇
 > Zodra je weet aan welke opdracht je gaat werken, neem je contact op met de opdrachtgever om een afspraak te maken over de kickoff van maandagmiddag 23 mei, doe dit gezamenlijk als groepje!!   
