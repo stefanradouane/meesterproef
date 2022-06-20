@@ -89,11 +89,11 @@ Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat 
 
 
 ### Meesterproef - Week 5 (20 juni -  24 juni)
-Dit is de laatste week van de Meesterproef. Donderdag laat je de je het final prototype zien aan je opdrachtgever. Vrijdag is de EXPO, dan kun je je werk laten zien aan collega's en wordt je werk beoordeeld.
+Dit is de laatste week van de Meesterproef. Donderdag laat je de je het final prototype zien aan je opdrachtgever. Vrijdag is de EXPO, dan kun je je werk laten zien aan collega's en wordt je prototype beoordeeld.
 
 1. Maandag heb je een standup en checkup met je coach.
 2. Donderdag presenteer je het final prototype bij de opdrachtgever.
-3. Vrijdag is de EXPO. Presentatie en beoordeling van de projecten.
+3. Vrijdag is de EXPO. Presentatie en beoordeling van de prototypes.
 
 
 ## Criteria en beoordeling
