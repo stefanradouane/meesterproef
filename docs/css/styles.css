@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  margin: 1rem;
+  margin: 0.4rem;
   padding: 0;
 
   background-color: var(--groen);
@@ -32,8 +32,8 @@ body {
   color: var(--light);
 
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
-  line-height: 1.5;
+  font-size: 1.2em;
+  line-height: 1.4;
 }
 
 img{
@@ -42,7 +42,7 @@ img{
 
 h1.expo {
   position: fixed;
-  top: 1rem;
+  top: 1.2rem;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -52,6 +52,7 @@ h1.expo {
   font-weight: bold;
   font-size: 6em;
   letter-spacing: -0.08em;
+  /* line-height: 1.2em; */
   /* text-indent: -2rem; */
 
   mix-blend-mode:difference;
@@ -72,20 +73,26 @@ body > header {
 }
 
 body > header div{
-  max-width: 16em;
-  display: flex;
+  /* background: red; */
+  max-width: 30em;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 
 body > header div h2 {
-  margin: 1rem 0 0 0;
+  /* background: pink; */
+  margin: 1rem 0 0 1rem;
   padding: 0;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.2em;
   letter-spacing: -0.02em;
+  overflow: hidden;
+  /* height: 2em; */
+  width: 20em;
 }
 body > header div img{
+  margin-left: 1rem;
   width: 8em;
   transition: all 0.5s ease;
 }
@@ -121,19 +128,19 @@ a, a:visited {
   nav en buttons (ook de button in de footer)
 */
 body > header nav{
-  display: none;
+  /* display: none; */
   position: absolute;
-  top: 3rem;
-  left: 30rem;
+  top: 7rem;
+  right: 0rem;
 }
 body > header nav a{
   /* display: block; */
   position: absolute;
-  padding: 0.4em 0.6em;
+  padding: 0.3em 0.4em;
   margin: 0.2em;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 0.9em;
   transition: all 0.2s ease;
 }
 body > header nav a,
@@ -146,19 +153,9 @@ body > header nav a:focus {
   color: var(--light);
   background: var(--course);
 }
-body > header nav a[href='#programma']{
-  top: 1.6rem;
-  left: 2rem;
-}
-nav a[href='#programma']:hover,
-nav a[href='#programma']:focus {
-  transform: rotate(8deg);
-  padding-right: 0rem;
-  text-indent: 1rem;
-}
 body > header nav a[href='#projecten']{
-  top: 6.8rem;
-  left: -1rem;
+  top: 0rem;
+  right: 1rem;
 }
 nav a[href='#projecten']:hover,
 nav a[href='#projecten']:focus {
@@ -167,8 +164,8 @@ nav a[href='#projecten']:focus {
   text-indent: 0.8rem;
 }
 body > header nav a[href='#about']{
-  top: 12rem;
-  left: 6rem;
+  top: 3rem;
+  right: 1rem;
 }
 nav a[href='#about']:hover,
 nav a[href='#about']:focus {
@@ -290,7 +287,7 @@ article a:focus{
 /*
   PROGRAMMA
 */
-article#programma ol {
+/* article#programma ol {
   position: relative;
   max-width: 30em;
   padding: 1rem;
@@ -304,7 +301,7 @@ article#programma ol header {
 }
 article#programma ol header a {
   display: none;
-}
+} */
 /* article#programma ol header a,
 article#programma ol header a:visited{
   display: inline-block;
@@ -323,14 +320,14 @@ article#programma ol header a:focus {
   transform: rotate(3deg);
 } */
 
-article#programma ol li {
+/* article#programma ol li {
   margin: 1rem 0 0 1rem;
   padding: 0;
 }
 article#programma ol li span{
   display: block;
   font-weight: normal;
-}
+} */
 
 /*
   PROJECTEN
@@ -340,10 +337,10 @@ article#projecten ul{
   margin: 0;
   padding: 0;
 }
-article#projecten ul nav{
+article#projecten header nav{
   display: none;
 }
-article#projecten ul header,
+article#projecten header,
 article#projecten ul li {
   position: relative;
   max-width: 30em;
@@ -404,15 +401,59 @@ footer p{
   responsive
 ************************ */
 
+@media all and (min-width: 17em) {
+  body {
+    margin: 0.8rem;
+  }
+  h1.expo {
+    top: 1.4rem;
+  }
+  body > header nav{
+    /* width: 17em; */
+    /* right: auto; */
+    left: 1rem;
+  }
+  body > header nav a[href='#projecten']{
+    top: 0rem;
+    right: auto;
+    left: 12rem;
+  }
+  body > header nav a[href='#about']{
+    top: 3rem;
+    right: auto;
+    left: 15rem;
+  }
+}
+
 @media all and (min-width: 24em) {
   h1.expo {
-    top: 0rem;
+    top: 0.6rem;
     font-size: 7em;
+    /* background: pink;  */
+  }
+  body > header nav{
+    /* width: 17em; */
+    /* right: auto; */
+    top: 8rem;
+    /* left: 4rem; */
+  }
+  body > header nav a{
+    font-size: 1em;
+  }
+  body > header nav a[href='#projecten']{
+    top: -4.4rem;
+    right: auto;
+    left: 15rem;
+  }
+  body > header nav a[href='#about']{
+    top: -1.4rem;
+    right: auto;
+    left: 16rem;
   }
 }
 @media all and (min-width: 28em) {
   h1.expo {
-    top: -0.5rem;
+    /* top: -0.3rem; */
     font-size: 8em;
   }
   article h3{
@@ -425,8 +466,20 @@ footer p{
 }
 @media all and (min-width: 32em) {
   h1.expo {
-    top: -0.8rem;
+    /* top: -0.8rem; */
     font-size: 10em;
+  }  
+  body > header nav{
+    /* width: 17em; */
+    /* right: auto; */
+    top: 9rem;
+    left: 3.5rem;
+  }
+  body > header nav a{
+    font-size: 1.2em;
+  }
+  body > header nav a[href='#about']{
+    top: -1rem;
   }
   body > header div img{
     width: 11em;
@@ -435,7 +488,7 @@ footer p{
   body > header {
     padding: 1rem;
   }
-  article#programma ol,
+  /* article#programma ol, */
   article#projecten ul header,
   article#projecten ul li,
   article#about div,
@@ -448,7 +501,7 @@ footer p{
 }
 @media all and (min-width: 39em) {
   h1.expo {
-    top: -2rem;
+    top: -0.4rem;
     font-size: 12em;
   }
   article h2{
@@ -457,7 +510,7 @@ footer p{
     text-indent: -1.1rem;
   }
   /* tekst marges vergroten */
-  article#programma ol,
+  /* article#programma ol, */
   article#projecten ul header,
   article#projecten ul li,
   article#about div,
@@ -472,14 +525,11 @@ footer p{
     font-size: 10em;
     text-indent: -1.2rem;
   }
-  body > header nav{
-    display: block;
-  }
   body > header {
     min-height: 96vh;
   }
   /* tekst marges vergroten */
-  article#programma ol,
+  /* article#programma ol, */
   article#projecten ul header,
   article#projecten ul li,
   article#about div,
