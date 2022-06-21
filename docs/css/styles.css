@@ -500,6 +500,10 @@ footer p{
   }
 }
 @media all and (min-width: 39em) {
+  body{
+    font-size: 1.4em;
+    line-height: 1.4;
+  }
   h1.expo {
     top: -0.4rem;
     font-size: 12em;
@@ -526,7 +530,7 @@ footer p{
     text-indent: -1.2rem;
   }
   body > header {
-    min-height: 96vh;
+    /* min-height: 96vh; */
   }
   /* tekst marges vergroten */
   /* article#programma ol, */
