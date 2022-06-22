@@ -206,7 +206,6 @@ footer a[href='#home']:focus {
 MAIN
   HEADER
   ARTICLES
-    - programma
     - projecten
     - about
 */
@@ -372,12 +371,12 @@ footer p{
     left: 1rem;
   }
   body > header nav a[href='#projecten']{
-    top: 0rem;
+    top: -1rem;
     right: auto;
     left: 12rem;
   }
   body > header nav a[href='#about']{
-    top: 3rem;
+    top: 1.5rem;
     right: auto;
     left: 15rem;
   }
@@ -399,12 +398,12 @@ footer p{
     font-size: 1em;
   }
   body > header nav a[href='#projecten']{
-    top: -4.4rem;
+    top: -3rem;
     right: auto;
     left: 15rem;
   }
   body > header nav a[href='#about']{
-    top: -1.4rem;
+    top: 0rem;
     right: auto;
     left: 16rem;
   }
@@ -437,7 +436,7 @@ footer p{
     font-size: 1.2em;
   }
   body > header nav a[href='#about']{
-    top: 1rem;
+    top: 0.4rem;
   }
   body > header div img{
     width: 11em;
@@ -465,6 +464,12 @@ footer p{
   h1.expo {
     top: -0.4rem;
     font-size: 12em;
+  }
+  body > header nav a[href='#projecten']{
+    
+  }
+  body > header nav a[href='#about']{
+    top: 0.8rem;
   }
   article h2{
     top: -0.2rem;
