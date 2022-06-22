@@ -98,7 +98,7 @@ body > header div img{
 }
 body > header p {
   position: relative;
-  max-width: 20em;
+  max-width: 30em;
   margin: 1rem;
   font-weight: bold;
 }
@@ -284,50 +284,7 @@ article a:focus{
   background: var(--geel);
 }
 
-/*
-  PROGRAMMA
-*/
-/* article#programma ol {
-  position: relative;
-  max-width: 30em;
-  padding: 1rem;
-  margin: 2rem 0;
 
-  font-weight: bold;
-  background: var(--groen);
-}
-article#programma ol header {
-  margin: 2rem 0;
-}
-article#programma ol header a {
-  display: none;
-} */
-/* article#programma ol header a,
-article#programma ol header a:visited{
-  display: inline-block;
-  padding: 0.4em 0.6em;
-  margin: 0 auto;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.2em;
-  color: var(--dark);
-  background: var(--light);
-  transition: all 0.2s ease;
-}
-article#programma ol header a:hover,
-article#programma ol header a:focus {
-  background: var(--geel);
-  transform: rotate(3deg);
-} */
-
-/* article#programma ol li {
-  margin: 1rem 0 0 1rem;
-  padding: 0;
-}
-article#programma ol li span{
-  display: block;
-  font-weight: normal;
-} */
 
 /*
   PROJECTEN
@@ -385,6 +342,7 @@ footer {
   padding: 1rem;
   margin: 0;
   font-style: italic;
+  font-weight: bold;
 }
 footer a {
   color: white;
