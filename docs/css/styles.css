@@ -337,7 +337,7 @@ details summary{
 footer {
   position: relative;
   max-width: 30em;
-  min-height: 100vh;
+/*   min-height: 100vh; */
   padding: 1rem;
   margin: 0;
   font-style: italic;
@@ -400,12 +400,12 @@ footer p{
   body > header nav a[href='#projecten']{
     top: -3rem;
     right: auto;
-    left: 15rem;
+    left: 18rem;
   }
   body > header nav a[href='#about']{
     top: 0rem;
     right: auto;
-    left: 16rem;
+    left: 17rem;
   }
 }
 @media all and (min-width: 28em) {
@@ -437,6 +437,7 @@ footer p{
   }
   body > header nav a[href='#about']{
     top: 0.4rem;
+    left: 20rem;
   }
   body > header div img{
     width: 11em;
@@ -466,10 +467,12 @@ footer p{
     font-size: 12em;
   }
   body > header nav a[href='#projecten']{
-    
+    top: -0.4rem;
+    left: 26rem;  
   }
   body > header nav a[href='#about']{
-    top: 0.8rem;
+    top: 3.8rem;
+    left: 27rem;
   }
   article h2{
     top: -0.2rem;
