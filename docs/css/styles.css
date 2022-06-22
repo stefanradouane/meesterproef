@@ -479,7 +479,7 @@ footer p{
     font-size: 1.2em;
   }
   body > header nav a[href='#about']{
-    top: -1rem;
+    /* top: -1rem; */
   }
   body > header div img{
     width: 11em;
