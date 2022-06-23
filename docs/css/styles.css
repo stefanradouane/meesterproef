@@ -467,12 +467,12 @@ footer p{
     font-size: 12em;
   }
   body > header nav a[href='#projecten']{
-    top: -0.4rem;
-    left: 26rem;  
+    top: 0.6rem;
+    left: 24rem;  
   }
   body > header nav a[href='#about']{
-    top: 3.8rem;
-    left: 27rem;
+    top: 4.8rem;
+    left: 26rem;
   }
   article h2{
     top: -0.2rem;
