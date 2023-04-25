@@ -6,19 +6,16 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 
 <!-- Je kan kiezen uit verschillende projecten. Hier ga je 5 weken aan werken.  Voor de Meesterproef geef je met een eerste, tweede keuze en derde keuze aan welk project je graag wil doen. Daarna wordt door de coaches een indeling gemaakt. -->
 
-
 ## Planning
 
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
-| [Week 0](https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-0) |  |  | Projecten kiezen  |   |  Contact opnemen met opdrachtgever |
-| [Week 1](https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-1) | Kickoff, briefing opdrachtgever, standup & checkup met coach| [Debriefing](Debriefing.md) |  | <del>Hemelvaart</del> |  <del>Hemelvaart</del> |
-| [Week 2](https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-2) | Standup & checkup met coach |    | Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever + Meesterproef Q&A |
-| [Week 3](https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-3) | Standup & checkup met coach |    | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
-| [Week 4](https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-4) | Standup & checkup met coach |    | Reviews | Reviews |  Iteratie 4 presenteren aan opdrachtgever |
-| [Week 5](https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-5) | Standup & checkup met coach |    |         | Final prototype  | EXPO |
-
-
+| [Week 0][Week 0] |  |  | Projecten kiezen  |  |  Contact opnemen met opdrachtgever |
+| [Week 1][Week 1] | Kickoff, briefing opdrachtgever, checkup met coach | [Debriefing](Debriefing.md) |  |  | Iteratie 1 presenteren aan opdrachtgever |
+| [Week 2][Week 2] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever |
+| [Week 3][Week 3] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
+| [Week 4][Week 4] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 4 presenteren aan opdrachtgever |
+| [Week 5][Week 5] | Standup & checkup met coach |  |  | Final prototype  | EXPO |
 
 ## Werkwijze
 In week 0 kies je een project.  
@@ -35,7 +32,6 @@ Coaches voor de Meesterproef zijn: Robert Spier, Justus Sturkenboom, Sanne 't Ho
 2. Woensdag - code reviews.
 3. Donderdag - design reviews.
 4. Vrijdag - testen met de opdrachtgever.
-
 
 ## Programma
 
@@ -61,7 +57,6 @@ Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opd
 4. Donderdag is Hemelvaart.
 4. Vrijdag is het Hemelvaart.
 
-
 ### Meesterproef - Week 2
 [Datum]
 
@@ -71,7 +66,6 @@ De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week 
 2. Woensdag is er ruimte voor code reviews. Om 16.00 uur is de Weekly Mingle.
 3. Donderdag is er ruimte voor design reviews.
 4. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever en is er een Q&A over de verwachtingen, criteria, leerdoelen en beoordeling.
-
 
 ### Meesterproef - Week 3
 [Datum]
@@ -83,8 +77,6 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 3. Donderdag is er ruimte voor design reviews.
 4. Vrijdag presenteer je je 2e iteratie van het prototype aan de opdrachtgever.
 
-
-
 ### Meesterproef - Week 4
 [Datum]
 
@@ -95,8 +87,6 @@ Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat 
 3. Donderdag is er ruimte voor design reviews.
 4. Vrijdag presenteer je je 3e iteratie van het prototype aan de opdrachtgever.
 
-
-
 ### Meesterproef - Week 5
 [Datum]
 
@@ -105,7 +95,6 @@ Dit is de laatste week van de Meesterproef. Donderdag laat je de je het final pr
 1. Maandag heb je een standup en checkup met je coach.
 2. Donderdag presenteer je het final prototype bij de opdrachtgever.
 3. Vrijdag is de EXPO. Presentatie en beoordeling van de prototypes.
-
 
 ## Criteria en beoordeling
 
@@ -124,12 +113,10 @@ Je schrijft over het proces, de iteraties, de werkwijze en de planning.
 Ook schetsen, testen, voorbeeld code en inspiratie zijn deel van de Product Biografie.
 De Product Biografie is individueel, ook als je in een team werkt. 
 
-
 ### Reflectie op eigen niveau
 Aan het eind van het project reflecteer je systematisch op je werk en het proces.
 Aan de hand van de vak-rubrics schrijf je welke vakken wel of niet aan bod zijn gekomen en waarom. 
 Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten in techniek, interactie en/of aspecten van het design-proces waar je je nog op kan verbeteren.
-
 
 ### Een blije klant
 Voor de klant werk je aan een bestaand product of maak je een (werkend) prototype. Gericht op een bepaalde gebruikersgroep, geschikt voor verschillende apparaten, met echte data, én een goede UX. 
@@ -139,6 +126,13 @@ Dan doe je juist niet wat de klant wil en probeer je de opdrachtgever te overtui
 En soms kan het voorkomen dat het proces niet helemaal soepel loopt.
 Dat hoort erbij en daar leer je van.
 Aan het eind van het project vragen we de klant feedback op het geleverde werk en het proces.
+
+[Week 0]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-0
+[Week 1]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-1
+[Week 2]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-2
+[Week 3]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-3
+[Week 4]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-4
+[Week 5]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-5
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
