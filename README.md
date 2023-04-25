@@ -10,7 +10,7 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
-| [Week 0][Week 0] |  |  | Projecten kiezen  |  |  Contact opnemen met opdrachtgever |
+| [Week 0][Week 0] |  |  | [Projecten kiezen][Cases]  |  |  Contact opnemen met opdrachtgever |
 | [Week 1][Week 1] | Tweede pinksterdag | Kickoff, briefing opdrachtgever, checkup met coach | [Debriefing](Debriefing.md) |  | Iteratie 1 presenteren aan opdrachtgever |
 | [Week 2][Week 2] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever |
 | [Week 3][Week 3] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
@@ -18,7 +18,7 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 | [Week 5][Week 5] | Standup & checkup met coach |  |  | Final prototype presenteren aan opdrachtgever  | EXPO |
 
 ## Werkwijze
-In week 0 kies je een project.  
+In [week 0][Week 0] kies je een [project][Cases].  
 In de eerste week krijg je een briefing van de opdrachtgever en schrijf je een [debriefing](Debriefing.md).
 Dat is de opdracht en de doelstellingen in eigen woorden beschreven.
 Daarna ga je iedere week een proof-of-concept (een iteratie op het prototype) bespreken met je opdrachtgever.
@@ -128,6 +128,7 @@ Dat hoort erbij en daar leer je van.
 Aan het eind van het project vragen we de klant feedback op het geleverde werk en het proces.
 
 <!-- references -->
+[Cases]:https://github.com/cmda-minor-web-cases
 [Week 0]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-0
 [Week 1]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-1
 [Week 2]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-2
