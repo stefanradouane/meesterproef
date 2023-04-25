@@ -10,7 +10,7 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
-| [Week 0][Week 0] |  |  | [Projecten kiezen][Cases]  |  |  Contact opnemen met opdrachtgever |
+| [Week 0][Week 0]  22 - 26 Mei |  |  | [Projecten kiezen][Cases]  |  |  Contact opnemen met opdrachtgever |
 | [Week 1][Week 1] | Tweede pinksterdag | Kickoff, briefing opdrachtgever, checkup met coach | [Debriefing](Debriefing.md) |  | Iteratie 1 presenteren aan opdrachtgever |
 | [Week 2][Week 2] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever |
 | [Week 3][Week 3] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
@@ -36,7 +36,7 @@ Coaches voor de Meesterproef zijn: Robert Spier, Justus Sturkenboom, Sanne 't Ho
 ## Programma
 
 ### Meesterproef - Week 0
-[22 - 26 Mei]
+**22 - 26 Mei**
 
 Deze week worden de projecten gepresenteerd en geef je twee voorkeuren aan voor een eindopdracht en wordt je ingedeeld in een groepje van maximaal drie studenten. Check de projecten hier https://github.com/cmda-minor-web-cases
 
