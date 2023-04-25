@@ -11,11 +11,11 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
 | [Week 0][Week 0]  22/05-26/05 |  |  | [Projecten kiezen][Cases]  |  |  Contact opnemen met opdrachtgever |
-| [Week 1][Week 1] | Tweede pinksterdag | Kickoff, briefing opdrachtgever, checkup met coach | [Debriefing](Debriefing.md) |  | Iteratie 1 presenteren aan opdrachtgever |
-| [Week 2][Week 2] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever |
-| [Week 3][Week 3] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
-| [Week 4][Week 4] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 4 presenteren aan opdrachtgever |
-| [Week 5][Week 5] | Standup & checkup met coach |  |  | Final prototype presenteren aan opdrachtgever  | EXPO |
+| [Week 1][Week 1]  29/05-02/06 | Tweede pinksterdag | Kickoff, briefing opdrachtgever, checkup met coach | [Debriefing](Debriefing.md) |  | Iteratie 1 presenteren aan opdrachtgever |
+| [Week 2][Week 2]  05/05-09/05 | Standup & checkup met coach |  | Reviews | CSS Day |  Iteratie 2 presenteren aan opdrachtgever / CSS Day |
+| [Week 3][Week 3]  12/05-16/05 | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
+| [Week 4][Week 4]  19/05-23/05 | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 4 presenteren aan opdrachtgever |
+| [Week 5][Week 5]  26/05-30/05 | EXPO voorbereiden |  |  | Final prototype presenteren aan opdrachtgever  | EXPO |
 
 ## Werkwijze
 In [week 0][Week 0] kies je een [project][Cases].  
