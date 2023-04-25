@@ -46,7 +46,7 @@ Deze week worden de projecten gepresenteerd en geef je twee voorkeuren aan voor 
 ☝️
 
 ### Meesterproef - Week 1
-[29 mei - 2 Juni]
+**29 mei - 2 Juni**
 
 Deze week heb je je eerste afspraak met je opdrachtgever, de kickoff.
 Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opdrachtgever en je coach.
@@ -58,7 +58,7 @@ Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opd
 4. Vrijdag is het Hemelvaart.
 
 ### Meesterproef - Week 2
-[5 - 9 Juni]
+**5 - 9 Juni**
 
 De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 1e iteratie van het protoype zien.
 
@@ -68,7 +68,7 @@ De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week 
 4. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever en is er een Q&A over de verwachtingen, criteria, leerdoelen en beoordeling.
 
 ### Meesterproef - Week 3
-[12 - 16 Juni]
+**12 - 16 Juni**
 
 De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 2e iteratie van het protoype zien.
 
@@ -78,7 +78,7 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 4. Vrijdag presenteer je je 2e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 4
-[19 - 23 Juni]
+**19 - 23 Juni**
 
 Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 3e iteratie van het protoype zien.
 
@@ -88,7 +88,7 @@ Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat 
 4. Vrijdag presenteer je je 3e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 5
-[26 Juni - 30 Juni]
+**26 Juni - 30 Juni**
 
 Dit is de laatste week van de Meesterproef. Donderdag laat je de je het final prototype zien aan je opdrachtgever. Vrijdag is de EXPO, dan kun je je werk laten zien aan collega's en wordt je prototype beoordeeld.
 
