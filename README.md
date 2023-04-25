@@ -11,11 +11,11 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
 | [Week 0][Week 0] |  |  | Projecten kiezen  |  |  Contact opnemen met opdrachtgever |
-| [Week 1][Week 1] | Kickoff, briefing opdrachtgever, checkup met coach | [Debriefing](Debriefing.md) |  |  | Iteratie 1 presenteren aan opdrachtgever |
+| [Week 1][Week 1] | Tweede pinksterdag | Kickoff, briefing opdrachtgever, checkup met coach | [Debriefing](Debriefing.md) |  | Iteratie 1 presenteren aan opdrachtgever |
 | [Week 2][Week 2] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 2 presenteren aan opdrachtgever |
 | [Week 3][Week 3] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
 | [Week 4][Week 4] | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 4 presenteren aan opdrachtgever |
-| [Week 5][Week 5] | Standup & checkup met coach |  |  | Final prototype  | EXPO |
+| [Week 5][Week 5] | Standup & checkup met coach |  |  | Final prototype presenteren aan opdrachtgever  | EXPO |
 
 ## Werkwijze
 In week 0 kies je een project.  
@@ -36,7 +36,7 @@ Coaches voor de Meesterproef zijn: Robert Spier, Justus Sturkenboom, Sanne 't Ho
 ## Programma
 
 ### Meesterproef - Week 0
-[Datum]
+[22 - 26 Mei]
 
 Deze week worden de projecten gepresenteerd en geef je twee voorkeuren aan voor een eindopdracht en wordt je ingedeeld in een groepje van maximaal drie studenten. Check de projecten hier https://github.com/cmda-minor-web-cases
 
@@ -46,7 +46,7 @@ Deze week worden de projecten gepresenteerd en geef je twee voorkeuren aan voor 
 ☝️
 
 ### Meesterproef - Week 1
-[Datum]
+[29 mei - 2 Juni]
 
 Deze week heb je je eerste afspraak met je opdrachtgever, de kickoff.
 Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opdrachtgever en je coach.
@@ -58,7 +58,7 @@ Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opd
 4. Vrijdag is het Hemelvaart.
 
 ### Meesterproef - Week 2
-[Datum]
+[5 - 9 Juni]
 
 De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 1e iteratie van het protoype zien.
 
@@ -68,7 +68,7 @@ De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week 
 4. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever en is er een Q&A over de verwachtingen, criteria, leerdoelen en beoordeling.
 
 ### Meesterproef - Week 3
-[Datum]
+[12 - 16 Juni]
 
 De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 2e iteratie van het protoype zien.
 
@@ -78,7 +78,7 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 4. Vrijdag presenteer je je 2e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 4
-[Datum]
+[19 - 23 Juni]
 
 Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 3e iteratie van het protoype zien.
 
@@ -88,7 +88,7 @@ Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat 
 4. Vrijdag presenteer je je 3e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 5
-[Datum]
+[26 Juni - 30 Juni]
 
 Dit is de laatste week van de Meesterproef. Donderdag laat je de je het final prototype zien aan je opdrachtgever. Vrijdag is de EXPO, dan kun je je werk laten zien aan collega's en wordt je prototype beoordeeld.
 
