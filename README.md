@@ -153,7 +153,3 @@ Aan het eind van het project vragen we de klant feedback op het geleverde werk e
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
-
-<style>
-table td { vertical-align:top}
-</style>
