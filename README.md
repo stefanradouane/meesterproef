@@ -127,6 +127,7 @@ En soms kan het voorkomen dat het proces niet helemaal soepel loopt.
 Dat hoort erbij en daar leer je van.
 Aan het eind van het project vragen we de klant feedback op het geleverde werk en het proces.
 
+<!-- references -->
 [Week 0]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-0
 [Week 1]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-1
 [Week 2]:https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-2
