@@ -12,10 +12,10 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 |---|---|---|---|---|---|
 | [Week 0][Week 0]  22/05-26/05 |  |  | [Projecten kiezen][Cases]  |  |  Contact opnemen met opdrachtgever |
 | [Week 1][Week 1]  29/05-02/06 | Tweede pinksterdag | 9:30 Kickoff @CMD  <br><br>'s Middags Briefing bij de opdrachtgever  | [Debriefing](Debriefing.md) |  | Iteratie 1 presenteren aan opdrachtgever |
-| [Week 2][Week 2]  05/05-09/05 | Standup & checkup met coach |  | Reviews | CSS Day |  Iteratie 2 presenteren aan opdrachtgever / CSS Day |
-| [Week 3][Week 3]  12/05-16/05 | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
-| [Week 4][Week 4]  19/05-23/05 | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 4 presenteren aan opdrachtgever |
-| [Week 5][Week 5]  26/05-30/05 | EXPO voorbereiden |  |  | Final prototype presenteren aan opdrachtgever  | EXPO |
+| [Week 2][Week 2]  05/06-09/06 | Standup & checkup met coach |  | Reviews | CSS Day |  Iteratie 2 presenteren aan opdrachtgever / CSS Day |
+| [Week 3][Week 3]  12/06-16/06 | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
+| [Week 4][Week 4]  19/06-23/06 | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 4 presenteren aan opdrachtgever |
+| [Week 5][Week 5]  26/06-30/06 | EXPO voorbereiden |  |  | Final prototype presenteren aan opdrachtgever  | EXPO |
 
 ## Werkwijze
 In [week 0][Week 0] kies je een [project][Cases].  
