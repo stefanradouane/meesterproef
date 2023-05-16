@@ -48,14 +48,14 @@ Deze week worden de projecten gepresenteerd en geef je twee voorkeuren aan voor 
 ### Meesterproef - Week 1
 **29 mei - 2 Juni**
 
-Deze week heb je je eerste afspraak met je opdrachtgever, de kickoff.
+Dinsdag 30 Mei heb je 's ochtends in de CMD  Minor Studio **de kickoffvan de Meesterproef** en in de middag je eerste afspraak met je opdrachtgever, **de briefing van het project**.
 Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opdrachtgever en je coach.
 
-1. Maandag is kickoff met de opdrachtgever en heb je een standup en checkup met je coach.
-2. Dinsdag stuur je een debriefing.
+1. Dinsdag is de kickoff ('s ochtends) en de briefing ('s middags).
+2. Woensdag stuur je een debriefing.
 3. Woensdag is er om 16.00 uur de Weekly Mingle.
-4. Donderdag is Hemelvaart.
-4. Vrijdag is het Hemelvaart.
+4. Donderdag is er ruimte voor design reviews.
+5. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever
 
 ### Meesterproef - Week 2
 **5 - 9 Juni**
@@ -65,7 +65,7 @@ De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week 
 1. Maandag heb je een standup en checkup met je coach.
 2. Woensdag is er ruimte voor code reviews. Om 16.00 uur is de Weekly Mingle.
 3. Donderdag is er ruimte voor design reviews.
-4. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever en is er een Q&A over de verwachtingen, criteria, leerdoelen en beoordeling.
+4. Vrijdag presenteer je je 2e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 3
 **12 - 16 Juni**
@@ -75,7 +75,7 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 1. Maandag heb je een standup en checkup met je coach..
 2. Woensdag is er ruimte voor code reviews. Om 16.00 uur is de Weekly Mingle.
 3. Donderdag is er ruimte voor design reviews.
-4. Vrijdag presenteer je je 2e iteratie van het prototype aan de opdrachtgever.
+4. Vrijdag presenteer je je 3e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 4
 **19 - 23 Juni**
@@ -85,7 +85,7 @@ Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat 
 1. Maandag heb je een standup en checkup met je coach.
 2. Woensdag is er ruimte voor code reviews. Om 16.00 uur is de Weekly Mingle.
 3. Donderdag is er ruimte voor design reviews.
-4. Vrijdag presenteer je je 3e iteratie van het prototype aan de opdrachtgever.
+4. Vrijdag presenteer je je 4e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 5
 **26 Juni - 30 Juni**
