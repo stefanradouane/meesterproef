@@ -10,7 +10,7 @@ Je gaat leren hoe je de geleerde kennis en skills kan gebruiken om een oplossing
 
 | Planning | Maandag | Dinsdag | Woensdag | Donderdag | Vrijdag |
 |---|---|---|---|---|---|
-| [Week 0][Week 0]  22/05-26/05 | [Projecten kiezen][Cases] |  |   |  |  Contact opnemen met opdrachtgever |
+| [Week 0][Week 0]  22/05-26/05 | [Projecten kiezen][Cases] |  | Contact opnemen met opdrachtgever |  |   |
 | [Week 1][Week 1]  29/05-02/06 | Tweede pinksterdag | 9:30 Kickoff @CMD  <br><br>'s Middags Briefing bij de opdrachtgever  | [Debriefing](Debriefing.md) |  | Iteratie 1 presenteren aan opdrachtgever |
 | [Week 2][Week 2]  05/06-09/06 | Standup & checkup met coach |  | Reviews | CSS Day |  Iteratie 2 presenteren aan opdrachtgever / CSS Day |
 | [Week 3][Week 3]  12/06-16/06 | Standup & checkup met coach |  | Reviews | Reviews |  Iteratie 3 presenteren aan opdrachtgever |
