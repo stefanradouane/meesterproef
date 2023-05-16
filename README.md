@@ -53,9 +53,8 @@ Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opd
 
 1. Dinsdag is de kickoff ('s ochtends) en de briefing ('s middags).
 2. Woensdag stuur je een debriefing.
-3. Woensdag is er om 16.00 uur de Weekly Mingle.
-4. Donderdag is er ruimte voor design reviews.
-5. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever.
+3. Donderdag is er ruimte voor design reviews.
+4. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 2
 **5 - 9 Juni**
@@ -63,7 +62,7 @@ Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opd
 De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 1e iteratie van het protoype zien.
 
 1. Maandag heb je een standup en checkup met je coach.
-2. Woensdag is er ruimte voor code reviews. Om 16.00 uur is de Weekly Mingle.
+2. Woensdag is er ruimte voor code reviews.
 3. Donderdag is er ruimte voor design reviews.
 4. Vrijdag presenteer je je 2e iteratie van het prototype aan de opdrachtgever.
 
@@ -73,7 +72,7 @@ De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week 
 De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 2e iteratie van het protoype zien.
 
 1. Maandag heb je een standup en checkup met je coach..
-2. Woensdag is er ruimte voor code reviews. Om 16.00 uur is de Weekly Mingle.
+2. Woensdag is er ruimte voor code reviews.
 3. Donderdag is er ruimte voor design reviews.
 4. Vrijdag presenteer je je 3e iteratie van het prototype aan de opdrachtgever.
 
@@ -83,7 +82,7 @@ De derde week ga je weer testen bij de opdrachtgever. Aan het eind van de week l
 Deze week ga je weer testen bij de opdrachtgever. Aan het eind van de week laat je de 3e iteratie van het protoype zien.
 
 1. Maandag heb je een standup en checkup met je coach.
-2. Woensdag is er ruimte voor code reviews. Om 16.00 uur is de Weekly Mingle.
+2. Woensdag is er ruimte voor code reviews.
 3. Donderdag is er ruimte voor design reviews.
 4. Vrijdag presenteer je je 4e iteratie van het prototype aan de opdrachtgever.
 
