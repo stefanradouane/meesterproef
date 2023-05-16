@@ -55,7 +55,7 @@ Schrijf een [debriefing](Debriefing.md) van de opdracht en check deze met de opd
 2. Woensdag stuur je een debriefing.
 3. Woensdag is er om 16.00 uur de Weekly Mingle.
 4. Donderdag is er ruimte voor design reviews.
-5. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever
+5. Vrijdag presenteer je je 1e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 2
 **5 - 9 Juni**
