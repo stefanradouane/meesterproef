@@ -63,7 +63,7 @@ De tweede week ga je weer testen bij de opdrachtgever. Aan het eind van de week 
 
 1. Maandag heb je een standup en checkup met je coach.
 2. Woensdag is er ruimte voor code reviews.
-3. Donderdag is er ruimte voor design reviews.
+3. ~~Donderdag is er ruimte voor design reviews.~~
 4. Vrijdag presenteer je je 2e iteratie van het prototype aan de opdrachtgever.
 
 ### Meesterproef - Week 3
