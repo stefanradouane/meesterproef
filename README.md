@@ -1,4 +1,4 @@
-# Meesterproef Plantswap 2223
+# 🌱 Meesterproef Plantswap 2223
 
 <p style="text-align:center;">
 <img src="docs/img/home.png">
@@ -12,11 +12,12 @@ Stefan Radouane - 2022-2023 - CMD Amsterdam
 
 ## Table of contents
 
-- Week 1
-- [Planning](#planning)
-- [Werkwijze](#werkwijze)
-- [Programma](#programma)
-- [Bronnen](#bronnen)
+- [Week 1](#week-1)
+- [Week 2](#week-2)
+- [Week 3](#week-3)
+- [Week 4](#week-4)
+- [Week 5](#week-5)
+- [Reflectie](#reflectie)
 
 ## Week 1
 
