@@ -1,7 +1,7 @@
 # Meesterproef Plantswap 2223
 
 <p style="text-align:center;">
-<img src="docs/img/placeholder.png" width="300">
+<img src="docs/img/home.png">
 </p>
 
 In de Meesterproef heb ik toegepast wat ik in de Minor Web Development hebt geleerd. Voor de Meesterproef kreeg ik samen met mijn team een opdracht van een echte opdrachtgever.
@@ -69,7 +69,10 @@ We kregen de opdracht 'PlantSwap', het doel hievan was om een website te maken w
 
 De punten hebben we uiteindelijk omgezet in user stories, dit zijn de belangrijkste user stories:
 
-<!-- CHANGE user stories-->
+- Als buurtbewoner van Amsterdam Oost wil ik aan de hand van een foto van een stekje meer informatie over een plant kunnen vinden, zodat ik bij het uploaden van het stekje passende informatie kan toevoegen.
+- Als buurtbewoner van Amsterdam Oost wil ik aan de hand van een foto van een plant meer informatie kunnen vinden, zodat ik kan bepalen of het een interessante plant is om een stekje van te kweken.
+
+> We hebben ons aan het begin van het project gefocussed op deze twee user stories later hebben we besloten om ons verder te richten extra user stories.
 
 ---
 
@@ -89,9 +92,13 @@ Het is dus de bedoeling dat we ons grotendeels focussen op de user storie:
 
 We hebben vervolgens allemaal van het team een aantal schetsen gemaakt van de flow, en deze schetsen vervolgens als wireframe te ontwerpen. Ik heb zelf ook een wireframe gemaakt. Het wireframe dat ik heb gemaakt ziet er als volgt uit:
 
-<img src="docs/img/placeholder.png">
+<img src="docs/img/wireflow.png">
 
-Vervolgens heeft @Danian deze wireframes verwerkt tot een eerste versie van de flow.
+De andere uit het team hebben ook wireframes gemaakt,vervolgens heeft @Danian deze wireframes verwerkt tot een eerste versie van de flow.
+
+<img src="docs/img/designs.png">
+
+<img src="docs/img/flow-1.png" >
 
 Ik ben vervolgens aan de slag gegaan om het project te initialiseren. Ik heb een aantal dingen geïnstalleerd en opgezet, zoals:
 
@@ -105,6 +112,8 @@ Ik ben vervolgens aan de slag gegaan om het project te initialiseren. Ik heb een
 ### Feedback week 2
 
 #### Design/code review
+
+Deze week hebben we meer algemene project feedback gehad dan echt design of code review, aangezien we nog echt iets hadden om te laten reviewen. We hebben we het idee voorgesteld, waarbij we de feedback kregen om ons echt eerst te focussen op de flow van het plant swappen en om ons daarna te focussen om de andere mogelijke user stories. Deze feedback werd gegeven, omdat we vrij ambitieus zeiden wat we allemaal wouden maken.
 
 ### To do week 3
 
@@ -339,6 +348,117 @@ export const getDictionary = async (locale) => dictionaries[locale]();
 ```
 
 > De params.lang is beschikbaar, omdat de pagina's van de website zijn genest in de map [lang], dit is een Next.js feature.
+
+### Resultaten
+
+Naast het maken van deze code heb ik ook de code van @Menno gerefactored. Ik heb de code opgeschoond en de code opgedeeld in meerdere componenten. Daarnaast was er een deel van het design nog niet helemaal correct verwerkt. Ik heb dit aangepast en de code opgeschoond.
+
+Dit is de code waarin in de resultaten heb veranderd.
+
+```javascript
+{
+  data.results.map((result, i) => (
+    <Result
+      key={i}
+      plant={{
+        plantName: result.species.commonNames[0],
+        latinName: result.species.scientificNameWithoutAuthor,
+        image: result.images[0].url.m,
+        score: result.score,
+        position: i + 1,
+        topPosition: i <= 2,
+        totalResults: data.results.length,
+        recent: flowdata.flowData?.myplant?.gbif?.id === result?.gbif?.id,
+      }}
+      data={mydata}
+      result={result}
+    />
+  ));
+}
+```
+
+> Dit is de code waar de resultaten worden `gemapped` per result component.
+
+```js
+const Result = ({ data, plant, result }) => {
+  const {
+    flowdata: { setFlowData },
+    dictionary,
+  } = data;
+
+  const resultStyle = () => {
+    if (!plant.position && !plant.score) {
+      return styles["result--overview"];
+    }
+    return styles["result--position"];
+  };
+
+  return (
+    <>
+      <section className={styles.result + " " + resultStyle()}>
+        <Title className={styles.result__name} title={"h4"}>
+          {plant.plantName}
+        </Title>
+        <Title className={styles.result__latin} title={"h5"}>
+          {plant.latinName}
+        </Title>
+
+        {plant.image && (
+          <Image
+            className={styles.result__img}
+            src={plant.image}
+            alt="Foto van de plant"
+            height={400}
+            width={400}
+            priority={true}
+          />
+        )}
+        {result && (
+          <Rank
+            topPosition={plant.topPosition}
+            rank={plant.position}
+            score={Number.parseFloat(plant.score * 100).toFixed(1) + "%"}
+          />
+        )}
+
+        {result && (
+          <Button
+            rotateIcon={90}
+            className={styles.result__btn}
+            modifier={["small", plant.recent ? "chosen" : "fresh"]}
+            next={() => {
+              setFlowData((prev) => {
+                if (!plant.recent) {
+                  return {
+                    ...prev,
+                    plantforms: {},
+                    myplant: result,
+                    step: prev.step + 1,
+                  };
+                }
+
+                return {
+                  ...prev,
+                  myplant: result,
+                  step: prev.step + 1,
+                };
+              });
+            }}>
+            {plant.recent
+              ? dictionary.swapflow.myplant.button.recent
+              : dictionary.swapflow.myplant.button.new}
+          </Button>
+        )}
+      </section>
+      {plant.position === 3 && (
+        <CardLeftOver plant={plant} dictionary={dictionary} />
+      )}
+    </>
+  );
+};
+```
+
+> Zoals je kan zien is heb ik het result component opgesplitst in meerdere componenten. Dit heb ik gedaan om de code beter te structureren en om de code herbruikbaar te maken.
 
 ---
 
@@ -630,11 +750,11 @@ Ik heb de feedback gekregen tijdens de design review dat het huidige formulier e
 
 ##### Het design zag er eerst zo uit.
 
-<img src="./docs/img/placeholder.png">
+<img src="./docs/img/flow-1.png">
 
 ##### En dat hebben we veranderd naar.
 
-<img src="./docs/img/placeholder.png">
+<img src="./docs/img/flow-2.png">
 
 ### To do week 5
 
@@ -642,31 +762,412 @@ We naderen het einde van het project en moeten nog een aantal dingen doen. Met d
 
 ## Week 5
 
+### Formulier
+
 De laatste loodjes zijn begonnen. Ik heb deze week het formulier verwerkt in Hygraph. Daarnaast heb ik ook de feedback van de design review verwerkt. Ik heb het formulier wat speelser gemaakt, door elke `select` om te zetten in een rij met radio buttons. Deze radio buttons kon ik nu ok stylen met een icon. Daarnaast heb ik ook de site mascotte toegevoegd boven de formulier velden. Dit maakt het formulier wat speelser, en het zorgt er ook voor dat de gebruiker niet vergeet dat hij een plant aan het swappen is.
 
 <!-- SS mascotte -->
-<img src="./docs/img/placeholder.png">
+<img src="./docs/img/mascotte.png" width="100">
 
-Ik heb dus ook de velden in hygraph gezet, waardoor je gemakkelijk online de informatie kan wijzigen. Nu kan je ook in Hygraph later nog aanpassen of een veld van het formulier verplicht is of niet.
+### Hygraph
 
-<!-- Hygraph -->
-<img src="./docs/img/placeholder.png">
+Ik heb deze week dus zowel de formulieren als de planten in hygraph gezet. Ik heb de formulieren in hygraph gezet, omdat we de formulieren ook online willen kunnen aanpassen. De planten moeten ook ergens opgeslagen worden, en omdat we al een database hebben voor de formulieren, hebben we besloten om de planten ook in hygraph te zetten. De planten werden eerst net als de formulieren ingeladen door een JSON bestand.
 
-Ik heb aan het einde van deze week nog een aantal extra dingen gedaan, zo werden de planten opgehaald uit een JSON bestand. Ik heb ook de planten in Hygraph gezet, zodat de planten ook online geregisteerd staan. Omdat de planten nu uit hygraph komen, kon ik op basis deze date de detail pagina invullen. Omdat @Danian al grotendeels de detailpagina heeft opgezet hoefde ik eigenlijk alleen nog maar de velden in te vullen en zorgen dat de pagina responsive is en er wordt gevalideerd of de pagina bestaat.
+<img src="./docs/img/hygraph-form.png" width="49%">
+<img src="./docs/img/hygraph-plant.png" width="49%">
+
+Alle informatie staat dus nu, waardoor je gemakkelijk online de informatie kan wijzigen. Nu kan je ook in Hygraph later nog aanpassen of een veld van het formulier verplicht is of niet.
 
 Ik heb de request naar Hygraph met graphQL op de volgende wijze gemaakt.
 
 ```js
-// Verzoek naar graphQL -> MUST BE ADDEDDD
+import "server-only";
+import { GraphQLClient, gql } from "graphql-request";
+
+const client = new GraphQLClient(
+  `https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/${hygraphEndpoint}`
+);
+
+export async function getData(lang) {
+  client.setHeader(`authorization`, `Bearer ${TOKEN}}`);
+  const data = await client.request(query(lang));
+  return data;
+}
+
+const query = (lang) => {
+  return gql`
+      query {
+        plants(locales: ${lang}) {
+          id
+          plantName
+          latinName
+          origin
+          maintenance
+          waterInterval
+          waterFrequency
+          waterFrequencyCheckbox
+          additionalWaterInfo
+          fertilizer
+          fertilizerDisclosure
+          poisonous
+          poisonousFor
+          image
+          reserved
+          registered
+        }
+        userForms(locales: ${lang}) {
+          formSection {
+            ... on FormSection {
+              title
+              fields {
+                title
+                name
+                type
+                quantityType
+                additionalInfo
+                required
+                description
+                placeholder
+                errorMessage
+                optionList {
+                    listOrientation
+                    optionsHint {
+                        ... on ListHint {
+                            hintLow
+                            hintHigh
+                        }
+                    }
+                    optionName {
+                      ... on Option {
+                        name
+                        key
+                      }
+                    }
+                  }
+  
+                disclosure {
+                    title
+                    name
+                    type
+                    quantityType
+                    additionalInfo
+                    required
+                    description
+                    placeholder
+                    errorMessage
+                }
+              }
+            }
+          }
+        }
+        plantforms(locales: ${lang}) {
+          formSection {
+            ... on FormSection {
+              title
+              fields {
+                title
+                name
+                type
+                quantityType
+                additionalInfo
+                required
+                description
+                placeholder
+                errorMessage
+                optionList {
+                    listOrientation
+                    optionsHint {
+                        ... on ListHint {
+                            hintLow
+                            hintHigh
+                        }
+                    }
+                    optionName {
+                      ... on Option {
+                        name
+                        key
+                      }
+                    }
+                  }
+  
+                disclosure {
+                    title
+                    name
+                    type
+                    quantityType
+                    additionalInfo
+                    required
+                    description
+                    placeholder
+                    errorMessage
+                }
+              }
+            }
+          }
+        }
+      }
+    `;
+};
 ```
 
-<!-- Detail pagina -->
-<img src="./docs/img/placeholder.png">
+> Zoals je kan zien vraagt dit graphQL verzoek zowel de planten als de formulieren op. Dit is omdat de formulieren ook in Hygraph staan. Dit wordt gedaan, zodat alle informatie op één plek beschikbaar is.
+
+### Detailpagina
+
+Omdat de planten nu uit hygraph komen, kon ik op basis deze date de detail pagina invullen. Omdat @Danian al grotendeels de detailpagina heeft opgezet hoefde ik eigenlijk alleen nog maar de velden in te vullen en zorgen dat de pagina responsive is en er wordt gevalideerd of de pagina bestaat.
+
+<img src="./docs/img/detailpage.png">
+
+De code van de detailpagina ziet er als volgt uit.
+
+```js
+import DetailpageHeader from "../DetailpageHeader/DetailpageHeader";
+import DetailpageArticle from "../DetailpageArticle/DetailpageArticle";
+
+import Accordion from "../Accordion/Accordion";
+
+import styles from "./detailpage.module.scss";
+import WaterCount from "../WaterCount/WaterCount";
+import Icon from "../Icon/Icon";
+
+const Detailpage = ({ dictionary, plant, form }) => {
+  const options = form
+    .map((a) => a.formSection.map((b) => b.fields))
+    .flat(2)
+    .map((c) => (c.optionList !== null ? c : undefined))
+    .filter((d) => d)
+    .filter((e) => {
+      if (
+        e.name === "origin" ||
+        e.name === "fertilizer" ||
+        e.name === "poisonous"
+      ) {
+        return e;
+      }
+    });
+
+  const fields = form.map((a) => a.formSection.map((b) => b.fields)).flat(2);
+
+  return (
+    <main className={styles.detailpage}>
+      <DetailpageHeader plant={plant} />
+
+      <section className={styles.detailpage__section}>
+        {options.map((option, i) => {
+          const content = option.optionList.optionName.find(
+            (x) => x.key === plant[option.name]
+          )?.name;
+
+          const key = option.optionList.optionName.find(
+            (x) => x.key === plant[option.name]
+          )?.key;
+
+          if (content) {
+            return (
+              <DetailpageArticle
+                key={i}
+                title={option.title}
+                content={content}
+                defaultValue={key}
+                name={option.name}
+              />
+            );
+          }
+        })}
+
+        {Object.keys(plant).map((key, i) => {
+          const bannedValues = [
+            "origin",
+            "fertilizer",
+            "poisonous",
+            "id",
+            "plantName",
+            "image",
+            "latinName",
+            "reserved",
+            "registered",
+          ];
+
+          if (bannedValues.includes(key)) return;
+
+          if (plant[key] !== null) {
+            const field = fields.find((x) => {
+              return x.name === key;
+            });
+            if (field) {
+              if (field.name === "maintenance")
+                return (
+                  <Accordion
+                    key={i}
+                    title={field.title}
+                    content={
+                      <Icon iconName={`groene-vinger-${plant[key]}`} />
+                    }></Accordion>
+                );
+
+              if (field.name === "waterFrequency")
+                return (
+                  <Accordion
+                    key={i}
+                    title={field.title}
+                    content={<WaterCount count={plant[key]} />}></Accordion>
+                );
+
+              if (field.name === "waterInterval") {
+                return (
+                  <Accordion
+                    key={i}
+                    title={field.title}
+                    content={
+                      fields
+                        .find((x) => x.name === "waterInterval")
+                        .optionList.optionName.find(
+                          (x) => x.key === plant.waterInterval
+                        ).name
+                    }></Accordion>
+                );
+              }
+
+              return (
+                <Accordion
+                  key={i}
+                  title={field.title}
+                  content={plant[key]}></Accordion>
+              );
+            }
+          }
+        })}
+      </section>
+    </main>
+  );
+};
+
+export default Detailpage;
+```
+
+> Zoals je kunt zien zijn er een aantal waardes hardcoded. Omdat dit de laatste week van het project is heb ik geen tijd meer gehad om de code te refactoren. Dit is iets wat ik in de toekomst nog wel zou willen doen.
+
+De detailpagina's worden ingeladen op basis van het ID in hygraph. Dit ID wordt meegegeven in de URL. Als dit ID niet bestaat dan krijgt de gebruiker de error pagina te zien. Ik heb deze error pagina gebasseerd op de homepage
+
+<img src="./docs/img/error.png">
+
+```js
+import styles from "../../page.module.scss";
+import Detailpage from "../../../../../components/Detailpage/Detailpage.js";
+import Layout from "../../../../../components/Layout/Base.js";
+import { getDictionary } from "../../../../../get-dictionary.js";
+import { getData } from "../../../../../utils/getFormData.js";
+import Hero from "../../../../../components/Hero/Hero.js";
+
+export default async function Home({ params }) {
+  const dictionary = await getDictionary(params.lang);
+  const data = await getData(params.lang);
+  const plant = data.plants.find((plant) => plant.id === params.id);
+
+  return (
+    <Layout dictionary={dictionary} locale={params.lang}>
+      {plant && (
+        <Detailpage
+          dictionary={dictionary}
+          plant={plant}
+          form={data.plantforms}
+        />
+      )}
+      {!plant && (
+        <main className={styles.page}>
+          <Hero
+            dictionary={dictionary.errorplant}
+            lang={params.lang}
+            image={"/images/netwerk.png"}
+            linkTo={`/${params.lang}/`}
+          />
+        </main>
+      )}
+    </Layout>
+  );
+}
+```
+
+> In de code hierboven kan je zien dat als er geen plant is gevonden de error hero wordt gerenderd. De content op de hero is afhankelijk van parameters, omdat dit component ook gebruikt wordt op de home pagina.
+
+#### Hero component
+
+Dit is de code van de het hero component
+
+```js
+import Image from "next/image";
+import styles from "./hero.module.scss";
+import Cta from "../Cta/Cta";
+import Text from "../Text/Text";
+import Link from "next/link";
+import Title from "../Title/Title";
+
+const Hero = ({ dictionary, lang, image, linkTo }) => {
+  return (
+    <section className={styles.hero}>
+      <aside className={styles.hero__content}>
+        <Title
+          className={styles["hero__content-title"]}
+          title={"h0"}
+          modifier={"gentle-appear"}>
+          {dictionary.title}
+        </Title>
+        <article className={styles["hero__content-intro"]}>
+          <Text>{dictionary.intro}</Text>
+          <Cta href={linkTo} role="primary" locale={lang}>
+            {dictionary.button}
+          </Cta>
+        </article>
+      </aside>
+
+      <Image
+        src={image}
+        alt={"Hero image"}
+        className={styles.hero__image}
+        width={500}
+        height={500}
+      />
+
+      {dictionary.sideNote && (
+        <Link href="#overview-heading" className={styles.hero__sidenote}>
+          {dictionary.sideNote} &#8594;
+        </Link>
+      )}
+    </section>
+  );
+};
+
+export default Hero;
+```
+
+> De sidenote is een boolean die aangeeft of de hero `Er is meer` text met animatie wordt getoond.
+
+### Filters
 
 Tot slot heb ik ook de filters voor @Dave afgemaakt. Hij had de filters ook op basis van een JSON bestand gemaakt, maar omdat de data nu komt uit hygraph heb ik de functie geschreven die de filters creeerd op basis van deze data. Daarnaast heb ik ook de homepagina gerefactored, zodat ik het hero component ook kon gebruiken op de error detailpagina.
 
-<!-- Error hero -->
-<img src="./docs/img/placeholder.png">
+<img src="./docs/img/filters.png">
+
+Het belangrijkste dat ik heb gerefactored is de functie die de opties ophaalt uit hygraph en niet uit een JSON optie bestand
+
+```js
+const options = plants.formInfo
+  .map((a) => a.formSection.map((b) => b.fields))
+  .flat(2)
+  .map((c) => (c.optionList !== null ? c : undefined))
+  .filter((d) => d)
+  .filter((e) => {
+    if (
+      e.name === "origin" ||
+      e.name === "fertilizer" ||
+      e.name === "poisonous"
+    ) {
+      return e;
+    }
+  });
+```
+
+> De options variabel is een array met alle opties die in de filters gebruikt worden. Deze opties worden opgehaald uit de formInfo van de planten. De formInfo is een array met alle formSections. De formSections zijn weer arrays met alle fields. De fields zijn de input velden van de planten. Als een field een optionList heeft dan wordt deze toegevoegd aan de options array. Als de optionList null is dan wordt deze niet toegevoegd aan de options array. Als de optionList niet null is dan wordt er gekeken of de optionList een van de drie filters is. Als dit zo is dan wordt de optionList toegevoegd aan de options array.
 
 ## Reflectie
 
@@ -690,10 +1191,15 @@ Zo krijg je een goed beeld van je eigen niveau, mogelijke aandachtspunten in tec
 
 ##### Data management - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html
 
-Ik heb meerder API verzoeken gedaan met graphQL, ik heb in week 2 
+Ik heb meerder API verzoeken gedaan met `graphQL`, ik heb nog niet eerder met `graphQL` gewerkt. Als ik eerlijk ben vind ik het iets omslagtiger dan een normaal API verzoek, maar ik vind het wel fijn dat je precies kan aangeven welke data je wilt ophalen.
 
-> Leerdoel: Code structure - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI
+Naast de `graphQL` verzoeken heb ik ook verzoeken gedaan met `XMLHttpRequest` en `fetch`. Ik heb net als `graphQL` nog nooit eerder gewerkt met `XMLHttpRequest` en vind dat dit een iets krachtigere manier is om data op te halen dan `fetch`.
 
+Ik heb zelfs ook een hele basic eigen REST API gemaakt dat gebruik wordt om de planten de identificeren (en voor in de toekomst ook planten toe te voegen aan hygraph).
+
+#### Code structure - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI
+
+Naast het gebruiken van API heb ik ook geleerd hoe ik data kan verwerken en opslaan in de `sessionStorage`. Ik heb geleerd hoe ik data kan opslaan in de `sessionStorage` en hoe ik deze data kan ophalen en verwerken. Dit heeft ervoor gezorgt dat ik de states van de app kan bijhouden. Naast het opslaan van dat in de `sessionStorage` heb ik ook geoefent met de UI states, zo heb ik de error page gemaakt en heb ik de loading state gemaakt.
 
 #### CSS to the Rescue
 
@@ -775,7 +1281,6 @@ Ik op bijvoorbeeld de volgende wijze
 
 > Note: ik heb deze styling geschreven ter illustratie van de selectors. Ik heb deze styling niet gebruikt in het project.
 
-
 #### Browser technologies
 
 ##### Leerdoel: student begrijpt de principe van Feature detection en hoe je dit kan toepassen, Student kan voorbeeld noemen van hoe Feature Detection werkt en wat fallback is
@@ -850,46 +1355,12 @@ Door gebruik te maken van Next.js wordt de geschreven React, door de server gere
 
 In het speciaal het principe add nonsense. We kregen als team de design feedback dat het formulier vrij saai was. We hebben hiervoor nonsense toegevoegd om het formulier interessanter te maken. Dit hebben we bijvoorbeeld gedaan door de rups te tonen boven de invul velden.
 
-<img src="./docs/img/nonsense.png" alt="rups for fun">
+<img src="./docs/img/mascotte.png" alt="rups for fun" width="200">
 
 Daarnaast ook een rups emoji gebruikt als marker van de filters.
 
-<img src="./docs/img/rupsmarker.png" alt="rups for fun">
+<img src="./docs/img/filters.png" alt="rups for fun">
 
 ### Een blije klant
 
-Voor de klant werk je aan een bestaand product of maak je een (werkend) prototype. Gericht op een bepaalde gebruikersgroep, geschikt voor verschillende apparaten, met echte data, én een goede UX.
-Een blije klant is een goede klant.
-Soms ontkom je er niet aan dat je een beetje eigenwijs moet doen.
-Dan doe je juist niet wat de klant wil en probeer je de opdrachtgever te overtuigen met een proof-of-concept.
-En soms kan het voorkomen dat het proces niet helemaal soepel loopt.
-Dat hoort erbij en daar leer je van.
-Aan het eind van het project vragen we de klant feedback op het geleverde werk en het proces.
-
-<!-- references -->
-
-[Cases]: https://github.com/cmda-minor-web-cases
-[Week 0]: https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-0
-[Week 1]: https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-1
-[Week 2]: https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-2
-[Week 3]: https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-3
-[Week 4]: https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-4
-[Week 5]: https://github.com/cmda-minor-web/meesterproef-2223/blob/master/README.md#meesterproef---week-5
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+Naast het ontwikkelen van een applicatie voor de klant, is het natuurlijk ook van belang dat de klant er blij mee is. Ik weet zeker dat dit is gelukt. We hebben meerdere feedback rondes gehad, waaruit bleek dat elke iteratie een stap in de juiste richting was. Met het eindresultaat is de klant dan ook erg blij. We hebben met twee teams hebben gewerkt aan dezelfde opdracht (maar wel een eigen versie), de opdrachtgever was met beide versies erg blij en zei daarna nog dat ze beide versies zo leuk vond dat het nog maar de vraag is welke wordt geimplementeerd. Dit is natuurlijk een groot compliment.
